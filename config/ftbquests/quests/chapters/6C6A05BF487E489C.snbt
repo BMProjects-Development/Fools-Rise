@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6C6A05BF487E489C"
+	group: "1177E4E37A9E3F57"
+	icon: {
+		id: "eternal_starlight:starlight_flower"
+	}
+	id: "6C6A05BF487E489C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+}

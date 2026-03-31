@@ -40,7 +40,7 @@
 		chapter_panel_pinned: false
 		
 		# Default: false
-		old_scroll_wheel: false
+		old_scroll_wheel: true
 		
 		# Default: true
 		show_lock_icon: true

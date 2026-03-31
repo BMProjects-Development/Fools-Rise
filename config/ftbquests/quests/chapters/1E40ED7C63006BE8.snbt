@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1E40ED7C63006BE8"
+	group: "1177E4E37A9E3F57"
+	icon: {
+		id: "irons_spellbooks:ender_upgrade_orb"
+	}
+	id: "1E40ED7C63006BE8"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+}

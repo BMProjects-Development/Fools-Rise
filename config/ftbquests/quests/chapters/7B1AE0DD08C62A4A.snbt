@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7B1AE0DD08C62A4A"
+	group: "1177E4E37A9E3F57"
+	icon: {
+		id: "aether:aether_portal_frame"
+	}
+	id: "7B1AE0DD08C62A4A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+}

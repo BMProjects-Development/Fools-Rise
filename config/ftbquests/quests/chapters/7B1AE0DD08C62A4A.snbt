@@ -394,24 +394,6 @@
 					type: "item"
 				}
 				{
-					count: 16
-					id: "66E81DF733FE15C4"
-					item: {
-						count: 1
-						id: "minecraft:cooked_salmon"
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "2B6A5B4102D19A0B"
-					item: {
-						count: 1
-						id: "minecraft:cooked_cod"
-					}
-					type: "item"
-				}
-				{
 					count: 8
 					id: "2BBA63860645691C"
 					item: {
@@ -421,18 +403,43 @@
 					type: "item"
 				}
 				{
-					id: "415065FAEEE9FC90"
-					item: {
-						count: 1
-						id: "naturescompass:naturescompass"
-					}
-					type: "item"
-				}
-				{
 					id: "754B541960B0214B"
 					item: {
 						count: 1
 						id: "explorerscompass:explorerscompass"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "6D7DC3AD23A60588"
+					item: {
+						count: 1
+						id: "draconicevolution:item_chaotic_damage"
+					}
+					type: "item"
+				}
+				{
+					id: "4DD40F973E3A2F23"
+					item: {
+						count: 1
+						id: "draconicevolution:item_chaotic_large_shield_capacity"
+					}
+					type: "item"
+				}
+				{
+					id: "029E4F358395534F"
+					item: {
+						count: 1
+						id: "draconicevolution:item_chaotic_shield_control"
+					}
+					type: "item"
+				}
+				{
+					id: "5CC659E8AD6335D1"
+					item: {
+						count: 1
+						id: "draconicevolution:item_chaotic_shield_recovery"
 					}
 					type: "item"
 				}

@@ -138,20 +138,70 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"aether:aechor_plant": true
-			"aether:phyg": true
-			"aether:whirlwind": true
-			"aether:evil_whirlwind": true
-			"aether:moa": true
-			"eternal_starlight:starlight_golem": true
-			"aether:aerbunny": true
+			"aether:slider": true
+			"minecraft:cod": false
+			"creeperoverhaul:beach_creeper": true
+			"eternal_starlight:rookfish": true
 			"aether:cockatrice": true
-			"aether:aerwhale": true
-			"aether:flying_cow": true
-			"aether:sheepuff": true
+			"livingthings:crab": true
+			"aether:evil_whirlwind": true
 			"aether:zephyr": true
-			"aether:golden_swet": true
+			"eternal_starlight:shadow_snail": true
+			"livingthings:shark": true
+			"aether:phyg": true
+			"eternal_starlight:starlight_golem": true
+			"minecraft:slime": true
+			"biomeswevegone:oddion": true
+			"minecraft:glow_squid": true
+			"eternal_starlight:yeti": true
+			"aether:aerbunny": true
+			"eternal_starlight:aurora_deer": true
+			"forbidden_arcanus:lost_soul": true
+			"minecraft:zombie": true
+			"aether:sheepuff": true
+			"minecraft:witch": true
+			"aether:aechor_plant": true
+			"minecraft:zombified_piglin": true
+			"minecraft:piglin": true
+			"minecraft:ender_dragon": true
+			"minecraft:squid": true
+			"eternal_starlight:seeker": true
+			"minecraft:dolphin": true
+			"endermanoverhaul:end_enderman": true
+			"eternal_starlight:ratlin": true
 			"aether:blue_swet": true
+			"eternal_starlight:permafrost": true
+			"aether:whirlwind": true
+			"cataclysm:deepling_brute": true
+			"aether:aerwhale": true
+			"quark:toretoise": true
+			"endermanoverhaul:nether_wastes_enderman": true
+			"eternal_starlight:lonestar_skeleton": true
+			"minecraft:enderman": true
+			"minecraft:zombie_villager": true
+			"quark:foxhound": true
+			"aether:flying_cow": true
+			"minecraft:bat": true
+			"minecraft:drowned": true
+			"minecraft:creeper": true
+			"aether:golden_swet": true
+			"eternal_starlight:ent": true
+			"minecraft:magma_cube": true
+			"minecraft:spider": true
+			"minecraft:skeleton": true
+			"livingthings:seahorse": true
+			"quark:forgotten": true
+			"eternal_starlight:nightfall_spider": true
+			"minecraft:sheep": true
+			"aether:moa": true
+			"irons_spellbooks:necromancer": true
+			"aether:fire_minion": true
+			"aether:sun_spirit": true
+			"livingthings:mantaray": true
+			"quark:stoneling": true
+			"minecraft:chicken": true
+			"creeperoverhaul:cave_creeper": true
+			"minecraft:strider": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
@@ -206,7 +256,7 @@
 		# Enables minimap to show up in corner
 		# Default: "top_right"
 		# Valid values: "bottom_left", "left", "top_left", "top_right", "right", "bottom_right"
-		position: "top_right"
+		position: "top_left"
 		
 		# Applied a conditional check to the offset. When set to anything other that None, the offset will apply only to the selected minimap position.
 		# When set to none and the maps offset is greater than 0, the offset will apply to all directions

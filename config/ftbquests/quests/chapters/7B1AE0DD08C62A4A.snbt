@@ -38,6 +38,7 @@
 	quests: [
 		{
 			dependencies: ["5E26FE789F50DFD6"]
+			hide_until_deps_complete: true
 			id: "4665987A722DE4ED"
 			shape: "gear"
 			size: 1.3d
@@ -232,6 +233,218 @@
 			}]
 			x: 6.5d
 			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4665987A722DE4ED"]
+			id: "6B307EADCB4C760F"
+			optional: true
+			rewards: [
+				{
+					id: "406033E4F94AA3D2"
+					item: {
+						components: {
+							"draconicevolution:attribute_data": {
+								damage: 21.5d
+								speed: 1.0d
+							}
+							"draconicevolution:config_properties": [[
+								{
+									"": "DECIMAL"
+								}
+								{
+									formatter: "percent_1"
+									max: 1.0d
+									min: 0.0d
+									name: "mining_speed"
+									show_on_hud: 1b
+									value: 1.0d
+								}
+							]]
+							"draconicevolution:destroy_speed_data": {
+								aoeSetting: 0.0f
+								multiplier: 1.0f
+								speedSetting: 1.0f
+							}
+							"draconicevolution:modular_energy_capability": 64000000L
+							"draconicevolution:module_entities": [[
+								{
+									"": "draconicevolution:chaotic_energy"
+								}
+								{
+									energy: 0L
+									gridx: 0
+									gridy: 0
+									module: "draconicevolution:chaotic_energy"
+								}
+							]]
+							"draconicevolution:provider_identity": [I;
+								-162489381
+								-2010690949
+								-1082534679
+								-1991199008
+							]
+						}
+						count: 1
+						id: "draconicevolution:chaotic_staff"
+					}
+					type: "item"
+				}
+				{
+					id: "370EF539AF4DAE4D"
+					item: {
+						components: {
+							"draconicevolution:config_properties": [ ]
+							"draconicevolution:modular_energy_capability": 64000000L
+							"draconicevolution:module_entities": [[
+								{
+									"": "draconicevolution:chaotic_energy"
+								}
+								{
+									energy: 0L
+									gridx: 0
+									gridy: 0
+									module: "draconicevolution:chaotic_energy"
+								}
+							]]
+							"draconicevolution:provider_identity": [I;
+								-1438173088
+								1398555597
+								-1944937067
+								215285106
+							]
+						}
+						count: 1
+						id: "draconicevolution:chaotic_chestpiece"
+					}
+					type: "item"
+				}
+				{
+					id: "2A86578C298D6328"
+					item: {
+						components: {
+							"mekanism:energy": {
+								energy_containers: [L;256000000L]
+							}
+						}
+						count: 1
+						id: "mekanism:ultimate_energy_cube"
+					}
+					type: "item"
+				}
+				{
+					id: "432A514FC1131CC1"
+					item: {
+						count: 1
+						id: "mekanism:ultimate_infusing_factory"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "11BB6448D7679283"
+					item: {
+						count: 1
+						id: "draconicevolution:item_chaotic_energy"
+					}
+					type: "item"
+				}
+				{
+					id: "41AD1D5BAC170A96"
+					item: {
+						count: 1
+						id: "draconicevolution:item_chaotic_flight"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1152433339B354B8"
+					item: {
+						count: 1
+						id: "minecraft:redstone_block"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "595F890834D8C819"
+					item: {
+						count: 1
+						id: "minecraft:diamond_block"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0BA6809C8A093708"
+					item: {
+						count: 1
+						id: "mekanism:block_refined_obsidian"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "48F12CD8BD24D83D"
+					item: {
+						count: 1
+						id: "aether:gingerbread_man"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "66E81DF733FE15C4"
+					item: {
+						count: 1
+						id: "minecraft:cooked_salmon"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2B6A5B4102D19A0B"
+					item: {
+						count: 1
+						id: "minecraft:cooked_cod"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2BBA63860645691C"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "415065FAEEE9FC90"
+					item: {
+						count: 1
+						id: "naturescompass:naturescompass"
+					}
+					type: "item"
+				}
+				{
+					id: "754B541960B0214B"
+					item: {
+						count: 1
+						id: "explorerscompass:explorerscompass"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "63F89C054C6E71D2"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
 		}
 	]
 }

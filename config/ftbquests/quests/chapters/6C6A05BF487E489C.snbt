@@ -38,6 +38,7 @@
 	quests: [
 		{
 			dependencies: ["52283986CF461AA0"]
+			hide_until_deps_complete: true
 			id: "662D3714B5979B36"
 			shape: "gear"
 			size: 1.3d
@@ -154,6 +155,445 @@
 				type: "checkmark"
 			}]
 			x: 6.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["662D3714B5979B36"]
+			id: "301E1BBA4619A3A5"
+			optional: true
+			rewards: [
+				{
+					id: "2E95B63DA9D50FE5"
+					item: {
+						count: 1
+						id: "irons_spellbooks:shadowwalker_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "560196CAD99BAB0A"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:shadowwalker_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "1A72BD50C80081B4"
+					item: {
+						count: 1
+						id: "irons_spellbooks:shadowwalker_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "755220946D3014A6"
+					item: {
+						count: 1
+						id: "irons_spellbooks:shadowwalker_boots"
+					}
+					type: "item"
+				}
+				{
+					id: "185F564A5D7E21A1"
+					item: {
+						count: 1
+						id: "irons_spellbooks:inscription_table"
+					}
+					type: "item"
+				}
+				{
+					id: "2FBD8CD07D8CA26E"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 12
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:dragonskin_spell_book"
+					}
+					type: "item"
+				}
+				{
+					id: "5AA751057D86F876"
+					item: {
+						count: 1
+						id: "irons_spellbooks:mana_ring"
+					}
+					type: "item"
+				}
+				{
+					id: "6783368E014DCC65"
+					item: {
+						count: 1
+						id: "irons_spellbooks:cooldown_ring"
+					}
+					type: "item"
+				}
+				{
+					id: "778A53391BFE38A6"
+					item: {
+						count: 1
+						id: "irons_spellbooks:amethyst_resonance_charm"
+					}
+					type: "item"
+				}
+				{
+					id: "09B78EF9C6128F6A"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:evasion"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:scroll"
+					}
+					type: "item"
+				}
+				{
+					id: "2AA108FBA80137AD"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:magic_missile"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:scroll"
+					}
+					type: "item"
+				}
+				{
+					id: "6ADB0E69A3E22A57"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:starfall"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:scroll"
+					}
+					type: "item"
+				}
+				{
+					id: "5A787826540E9968"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:magic_arrow"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:scroll"
+					}
+					type: "item"
+				}
+				{
+					id: "3AD12CEB2C15D491"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:portal"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:scroll"
+					}
+					type: "item"
+				}
+				{
+					id: "46BF4D1C5A4AB6CB"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_swords"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:scroll"
+					}
+					type: "item"
+				}
+				{
+					id: "5DE56082AB8002C7"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:black_hole"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:scroll"
+					}
+					type: "item"
+				}
+				{
+					id: "2A8CC6FA3AF894C3"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:echoing_strikes"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:scroll"
+					}
+					type: "item"
+				}
+				{
+					id: "4A4711511B55608E"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:teleport"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:scroll"
+					}
+					type: "item"
+				}
+				{
+					id: "19AA9D29733FFC3D"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:dragon_breath"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:scroll"
+					}
+					type: "item"
+				}
+				{
+					id: "79A67736F62584BD"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:shadow_slash"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:scroll"
+					}
+					type: "item"
+				}
+				{
+					id: "057B2407A924BE48"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:heal"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:scroll"
+					}
+					type: "item"
+				}
+				{
+					id: "1C05A442B232394A"
+					item: {
+						count: 1
+						id: "oritech:foundry_block"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5A06BC2D3B264CA2"
+					item: {
+						count: 1
+						id: "oritech:machine_core_5"
+					}
+					type: "item"
+				}
+				{
+					id: "0D6E9C531F932B66"
+					item: {
+						count: 1
+						id: "oritech:basic_generator_block"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "601D0E7AEE384A66"
+					item: {
+						count: 1
+						id: "oritech:energy_pipe"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "35E873741383A476"
+					item: {
+						count: 1
+						id: "minecraft:coal_block"
+					}
+					type: "item"
+				}
+				{
+					id: "3FE2E805FCF4E61F"
+					item: {
+						count: 1
+						id: "eternal_starlight:flowglaze_pickaxe"
+					}
+					type: "item"
+				}
+				{
+					id: "21E6445B91D8383D"
+					item: {
+						count: 1
+						id: "eternal_starlight:flowglaze_axe"
+					}
+					type: "item"
+				}
+				{
+					id: "3CC43AFFDB626140"
+					item: {
+						count: 1
+						id: "eternal_starlight:flowglaze_shovel"
+					}
+					type: "item"
+				}
+				{
+					id: "44A79AF9FCAE6F50"
+					item: {
+						count: 1
+						id: "naturescompass:naturescompass"
+					}
+					type: "item"
+				}
+				{
+					id: "3540A0B4C4AF130D"
+					item: {
+						count: 1
+						id: "explorerscompass:explorerscompass"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "7C667A8C2BDD8AE5"
+				type: "checkmark"
+			}]
+			x: -2.0d
 			y: 0.0d
 		}
 	]

@@ -9,5 +9,336 @@
 	id: "1E40ED7C63006BE8"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["24BFF64972B86F6B"]
+			hide_until_deps_complete: true
+			id: "2B9B6D2FCB7411A3"
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "1B55687F5F64AD8E"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B9B6D2FCB7411A3"]
+			id: "67DCC4495CC9F032"
+			tasks: [{
+				id: "512E3C54C5118872"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ender_pearls)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2B9B6D2FCB7411A3"]
+			id: "66674F1012C6670C"
+			tasks: [{
+				id: "085AA420E0AFDE36"
+				item: { count: 1, id: "minecraft:end_stone" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"67DCC4495CC9F032"
+				"66674F1012C6670C"
+			]
+			id: "5F558C53728AACBC"
+			rewards: [
+				{
+					id: "05DEE86FA1E8CA53"
+					item: {
+						count: 1
+						id: "create:hand_crank"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "40DBFAF993F40AE8"
+					item: {
+						count: 1
+						id: "create:deployer"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2AC19FE2A7408D25"
+					item: {
+						count: 1
+						id: "create:cogwheel"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3EC2C96AB564B0D6"
+					item: {
+						count: 1
+						id: "create:large_cogwheel"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0517C3B7FE2A3AF9"
+					item: {
+						count: 1
+						id: "create:shaft"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0F6734227815981E"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "4511ECF21D4339B0"
+					item: {
+						count: 1
+						id: "create:golden_sheet"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "464B20C099A543EB"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F558C53728AACBC"]
+			id: "625245C8D57BF769"
+			tasks: [{
+				id: "6E068B5D4DFB28B5"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["625245C8D57BF769"]
+			id: "57D51127907C3FDF"
+			tasks: [{
+				id: "1664FED42C50E738"
+				item: { count: 1, id: "draconicevolution:draconium_core" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57D51127907C3FDF"]
+			id: "5D1AB78CC1E2FF08"
+			tasks: [{
+				id: "136DB2369B5733DB"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2B9B6D2FCB7411A3"]
+			id: "6F3255D37C9413ED"
+			optional: true
+			rewards: [
+				{
+					id: "0652EEE8765DD1DD"
+					item: {
+						components: {
+							"justdirethings:forge_energy": 500000
+						}
+						count: 1
+						id: "justdirethings:eclipsealloy_sword"
+					}
+					type: "item"
+				}
+				{
+					id: "550125E5C9CDDA6D"
+					item: {
+						components: {
+							"justdirethings:forge_energy": 500000
+						}
+						count: 1
+						id: "justdirethings:eclipsealloy_pickaxe"
+					}
+					type: "item"
+				}
+				{
+					id: "422F4AE462127BBF"
+					item: {
+						components: {
+							"justdirethings:forge_energy": 500000
+						}
+						count: 1
+						id: "justdirethings:eclipsealloy_axe"
+					}
+					type: "item"
+				}
+				{
+					id: "7E15DD1D0B895417"
+					item: {
+						components: {
+							"justdirethings:forge_energy": 500000
+						}
+						count: 1
+						id: "justdirethings:bow_eclipsealloy"
+					}
+					type: "item"
+				}
+				{
+					id: "4F457C8E83B07AC9"
+					item: {
+						components: {
+							"justdirethings:forge_energy": 500000
+						}
+						count: 1
+						id: "justdirethings:eclipsealloy_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "2205C3BE2B1741D9"
+					item: {
+						components: {
+							"justdirethings:forge_energy": 500000
+						}
+						count: 1
+						id: "justdirethings:eclipsealloy_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "68B27D6A9AF9DFD1"
+					item: {
+						components: {
+							"justdirethings:forge_energy": 500000
+						}
+						count: 1
+						id: "justdirethings:eclipsealloy_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "25A2F0E3C0AD2B38"
+					item: {
+						components: {
+							"justdirethings:forge_energy": 500000
+						}
+						count: 1
+						id: "justdirethings:eclipsealloy_boots"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6454C2BC3C4A9E6E"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6F262F6770D67D8C"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1AE37C93125268B6"
+					item: {
+						count: 1
+						id: "minecraft:snowball"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1C600F9AAA2E0929"
+					item: {
+						count: 1
+						id: "minecraft:snowball"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "42456A64C1AEEA78"
+					item: {
+						count: 1
+						id: "minecraft:snowball"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6FD0C167A38742A2"
+					item: {
+						count: 1
+						id: "minecraft:snowball"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "47B62AF08DF08702"
+					item: {
+						count: 1
+						id: "minecraft:snowball"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "62511FC5D0CF9446"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "2BC1E1E8B1D8BAD1"
+					item: {
+						count: 1
+						id: "minecraft:baked_potato"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "672429ADE94D7CA3"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+	]
 }

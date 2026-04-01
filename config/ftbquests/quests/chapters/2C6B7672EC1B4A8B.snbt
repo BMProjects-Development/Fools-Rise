@@ -9,5 +9,18 @@
 	id: "2C6B7672EC1B4A8B"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["0FF47E829569E30F"]
+		hide_until_deps_complete: true
+		id: "3514B5A777A05130"
+		shape: "gear"
+		size: 1.3d
+		tasks: [{
+			dimension: "minecraft:overworld"
+			id: "39CDD83ECCF5189F"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 }

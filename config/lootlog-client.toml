@@ -1,0 +1,330 @@
+[general]
+	#How long entries stay visible (milliseconds)
+	# Default: 5000
+	# Range: 500 ~ 30000
+	displayDurationMs = 5000
+	#Maximum number of entries shown at once
+	# Default: 10
+	# Range: 1 ~ 30
+	maxEntries = 10
+	#How duplicate pickups stack: ALWAYS, NEVER, EXCLUDE_NAMED
+	#Allowed Values: ALWAYS, NEVER, EXCLUDE_NAMED
+	combineMode = "ALWAYS"
+	#Show item pickup notifications
+	showItems = true
+	#Show XP pickup notifications
+	showXp = true
+
+[position]
+	#Screen corner for the pickup list
+	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+	anchor = "BOTTOM_RIGHT"
+	#Horizontal offset from screen edge
+	# Default: 5
+	# Range: 0 ~ 500
+	xOffset = 5
+	#Vertical offset from screen edge
+	# Default: 5
+	# Range: 0 ~ 500
+	yOffset = 5
+	#Vertical spacing between entries
+	# Default: 2
+	# Range: 0 ~ 20
+	entrySpacing = 2
+	#HUD scale multiplier
+	# Default: 1.0
+	# Range: 0.25 ~ 4.0
+	scale = 1.0
+	#Prevent entries from rendering off-screen
+	clampToScreen = true
+	#Direction entries grow from the anchor: NORMAL or INVERSE
+	growthDirection = "NORMAL"
+
+[animation]
+	#Fade-in animation duration (milliseconds)
+	# Default: 300
+	# Range: 0 ~ 2000
+	fadeInMs = 300
+	#Fade-out animation duration (milliseconds)
+	# Default: 500
+	# Range: 0 ~ 2000
+	fadeOutMs = 500
+	#Horizontal slide distance in pixels for enter/exit animations
+	# Default: 220.0
+	# Range: 0.0 ~ 500.0
+	slideDistance = 220.0
+	#Slide entries off-screen while fading out
+	fadeOutSlide = true
+	#Speed of vertical position animation when entries shift (0.0 = instant, 1.0 = very slow)
+	# Default: 0.3
+	# Range: 0.0 ~ 1.0
+	verticalAnimSpeed = 0.3
+	#Easing function for slide-in animation: QUAD_OUT, CUBIC_OUT, BACK_OUT, ELASTIC_OUT
+	#Allowed Values: QUAD_OUT, CUBIC_OUT, BACK_OUT, ELASTIC_OUT
+	slideEasing = "QUAD_OUT"
+	#Scale entries up from small during fade-in
+	scaleEntrance = false
+	#Starting scale factor for entrance animation (0.1-1.0)
+	# Default: 0.8
+	# Range: 0.1 ~ 1.0
+	entranceScaleStart = 0.8
+	#Delay between consecutive entry animations in ms (0 = no stagger)
+	# Default: 0
+	# Range: 0 ~ 500
+	staggerDelayMs = 0
+
+[layout]
+	#Named layout preset (leave empty for auto-detection from backgroundStyle)
+	layoutPreset = ""
+
+[appearance]
+	#Named decoration preset (overrides backgroundStyle when set). Options: default_banner. Leave empty to use backgroundStyle.
+	decoration = ""
+	#Background style: NONE, SOLID, TOOLTIP, TEXTURE, BANNER, FLAT
+	backgroundStyle = "BANNER"
+	#Background color as ARGB (e.g., 2852126720 = 0xAA000000)
+	# Default: 2852126720
+	# Range: 0 ~ 4294967295
+	backgroundColor = 2852126720
+	#Horizontal padding inside the background rectangle
+	# Default: 4
+	# Range: 0 ~ 20
+	backgroundHPadding = 4
+	#Vertical padding inside the background rectangle
+	# Default: 2
+	# Range: 0 ~ 20
+	backgroundVPadding = 2
+	#Maximum pixel width for item names before truncation (0 = unlimited)
+	# Default: 150
+	# Range: 0 ~ 500
+	maxNameWidth = 150
+	#Color for the count text in CLASSIC/FLAT styles (ARGB)
+	# Default: 4289374890
+	# Range: 0 ~ 4294967295
+	countColor = 4289374890
+	#Text color when rarity colors are disabled (ARGB)
+	# Default: 4294967295
+	# Range: 0 ~ 4294967295
+	nameColorOverride = 4294967295
+	#Show item count prefix in entry text (e.g., '64x Cobblestone')
+	showCount = true
+	#Color item names by rarity
+	useRarityColors = true
+	#Place icon to the right of the item name (true) or left (false)
+	iconOnRight = true
+	#Render text with drop shadow
+	textShadow = true
+	#Show total count to the right of the icon (e.g., 'x64')
+	showCountRight = true
+	#Animate XP entry text color with a pulsing green effect
+	animateXpColor = true
+	#Abbreviate large counts (e.g., 1500 -> 1.5K)
+	abbreviateCounts = true
+
+[banner_layout]
+	#Order of banner elements from decorative edge to screen edge. Comma-separated: PICKUP_COUNT, NAME, ICON, TOTAL_COUNT
+	bannerElementOrder = "PICKUP_COUNT,NAME,ICON,TOTAL_COUNT"
+	#Inset in pixels for the decorative edge of the banner
+	# Default: 6
+	# Range: 0 ~ 50
+	decorativeEdgeInset = 6
+	#Gap in pixels between the icon and item name
+	# Default: 4
+	# Range: 0 ~ 20
+	iconToNameGap = 4
+	#Gap in pixels between the item name and count
+	# Default: 4
+	# Range: 0 ~ 20
+	nameToCountGap = 4
+
+[banner_body]
+	#Opacity of the banner body layer (0.0-1.0)
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	bodyAlpha = 1.0
+	#Tint color for the banner body layer as ARGB
+	# Default: 4294967295
+	# Range: 0 ~ 4294967295
+	bodyTint = 4294967295
+	#Animation speed for the banner body layer (0-100)
+	# Default: 4
+	# Range: 0 ~ 100
+	bodyAnimSpeed = 4
+
+[banner_accent]
+	#Show the accent layer on the banner
+	showAccent = true
+	#Opacity of the accent layer (0.0-1.0)
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	accentAlpha = 1.0
+	#Tint color for the accent layer as ARGB
+	# Default: 4294967295
+	# Range: 0 ~ 4294967295
+	accentTint = 4294967295
+	#Animation speed for the accent layer (0-100)
+	# Default: 4
+	# Range: 0 ~ 100
+	accentAnimSpeed = 4
+	#Horizontal offset of the accent layer (-50 to 50)
+	# Default: 0
+	# Range: -50 ~ 50
+	accentXOffset = 0
+	#Vertical offset of the accent layer (-50 to 50)
+	# Default: 0
+	# Range: -50 ~ 50
+	accentYOffset = 0
+	#Anchor point for accent layer: EDGE, ICON, NAME, COUNT
+	accentAnchor = "ICON"
+
+[effect_targeting]
+	#Which entries receive icon/glow effects: ALL, ITEMS, XP
+	effectTarget = "ALL"
+
+[pickup_pulse]
+	#Enable per-part pickup pulse animation (brief scale + alpha pop on pickup). When enabled, replaces icon_bounce.
+	enabled = true
+	#Pulse animation duration in milliseconds
+	# Default: 200
+	# Range: 50 ~ 1000
+	durationMs = 200
+	#Icon scale pulse strength (0 = disabled)
+	# Default: 0.05
+	# Range: 0.0 ~ 0.5
+	iconScaleStrength = 0.05
+	#Icon brightness pulse strength (0 = disabled)
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	iconAlphaStrength = 0.05
+	#Item name text scale pulse strength
+	# Default: 0.05
+	# Range: 0.0 ~ 0.5
+	nameScaleStrength = 0.05
+	#Item name text brightness pulse strength
+	# Default: 0.0
+	# Range: 0.0 ~ 1.0
+	nameAlphaStrength = 0.0
+	#Total count text scale pulse strength
+	# Default: 0.05
+	# Range: 0.0 ~ 0.5
+	totalCountScaleStrength = 0.05
+	#Total count text brightness pulse strength
+	# Default: 0.0
+	# Range: 0.0 ~ 1.0
+	totalCountAlphaStrength = 0.0
+	#Background body scale pulse strength
+	# Default: 0.0
+	# Range: 0.0 ~ 0.5
+	bodyScaleStrength = 0.0
+	#Background body brightness pulse strength
+	# Default: 0.0
+	# Range: 0.0 ~ 1.0
+	bodyAlphaStrength = 0.0
+	#Background accent scale pulse strength
+	# Default: 0.0
+	# Range: 0.0 ~ 0.5
+	accentScaleStrength = 0.0
+	#Background accent brightness pulse strength
+	# Default: 0.0
+	# Range: 0.0 ~ 1.0
+	accentAlphaStrength = 0.0
+	#Whole entry scale pulse strength
+	# Default: 0.05
+	# Range: 0.0 ~ 0.5
+	overallScaleStrength = 0.05
+	#Whole entry brightness pulse strength
+	# Default: 0.0
+	# Range: 0.0 ~ 1.0
+	overallAlphaStrength = 0.0
+
+[progress_bar]
+	#Show a thin bar at the bottom of entries indicating remaining display time
+	enabled = false
+	#Progress bar color as ARGB
+	# Default: 2164260863
+	# Range: 0 ~ 4294967295
+	color = 2164260863
+	#Progress bar height in pixels (1-3)
+	# Default: 1
+	# Range: 1 ~ 3
+	height = 1
+
+[icon_glow]
+	#Enable a glow effect behind item icons
+	enabled = false
+	#Glow color as ARGB (e.g., 2868903935 = 0xAAFFFFFF)
+	# Default: 2868903935
+	# Range: 0 ~ 4294967295
+	color = 2868903935
+	#Glow radius in pixels (0-8)
+	# Default: 3
+	# Range: 0 ~ 8
+	radius = 3
+	#Glow shape: circle, item, square, diamond
+	shape = "circle"
+	#Glow falloff softness (0.5-5.0, higher = more gradual)
+	# Default: 1.5
+	# Range: 0.5 ~ 5.0
+	softness = 1.5
+	#Glow pulse speed in cycles/sec (0 = no pulse)
+	# Default: 0.0
+	# Range: 0.0 ~ 10.0
+	pulseSpeed = 0.0
+	#Minimum pulse intensity (0.0-1.0)
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	pulseMin = 0.5
+	#Maximum pulse intensity (0.0-1.0)
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	pulseMax = 1.0
+
+[icon_shadow]
+	#Enable a shadow behind item icons
+	enabled = false
+	#Shadow color as ARGB (e.g., 2147483648 = 0x80000000)
+	# Default: 2147483648
+	# Range: 0 ~ 4294967295
+	color = 2147483648
+	#Shadow horizontal offset in pixels (0-4)
+	# Default: 1
+	# Range: 0 ~ 4
+	offsetX = 1
+	#Shadow vertical offset in pixels (0-4)
+	# Default: 1
+	# Range: 0 ~ 4
+	offsetY = 1
+	#Shadow blur radius in pixels (0-4)
+	# Default: 1
+	# Range: 0 ~ 4
+	radius = 1
+	#Shadow shape: item, circle, square, diamond
+	shape = "item"
+	#Shadow falloff softness (0.5-5.0)
+	# Default: 1.5
+	# Range: 0.5 ~ 5.0
+	softness = 1.5
+
+[filtering]
+	#Item IDs to hide (e.g., ["minecraft:cobblestone", "minecraft:dirt"])
+	itemBlacklist = []
+	#If non-empty, only show these item IDs
+	itemWhitelist = []
+	#Mod namespaces to hide (e.g., ["create"])
+	modBlacklist = []
+	#If non-empty, only show items from these mods
+	modWhitelist = []
+
+[sound]
+	#Play a sound on pickup notifications
+	soundEnabled = false
+	#Sound to play (namespaced, e.g., minecraft:entity.item.pickup)
+	soundId = "minecraft:entity.item.pickup"
+	#Sound volume (0.0 - 1.0)
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	soundVolume = 0.5
+	#Sound pitch (0.5 - 2.0)
+	# Default: 1.0
+	# Range: 0.5 ~ 2.0
+	soundPitch = 1.0

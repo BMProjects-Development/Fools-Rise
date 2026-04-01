@@ -1,0 +1,23 @@
+{
+  "type": "oritech:foundry",
+  "fluidInput": {
+    "amount": 0,
+    "fluid": "minecraft:empty"
+  },
+  "fluidOutputs": [],
+  "ingredients": [
+    {
+      "item": "eternal_starlight:saltpeter_powder"
+    },
+    {
+      "item": "eternal_starlight:thermal_springstone"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "eternal_starlight:thermal_springstone_ingot"
+    }
+  ],
+  "time": 120
+}

@@ -7,7 +7,154 @@
 		id: "eternal_starlight:starlight_flower"
 	}
 	id: "6C6A05BF487E489C"
+	images: [
+		{
+			height: 2.0d
+			image: "irons_spellbooks:item/energized_core"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "eternal_starlight:item/thermal_springstone_ingot"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "eternal_starlight:item/saltpeter_powder"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.5d
+			y: 1.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["52283986CF461AA0"]
+			id: "662D3714B5979B36"
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				dimension: "eternal_starlight:starlight"
+				id: "5625240313C8356A"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["662D3714B5979B36"]
+			id: "6C7BD3A2630F88E2"
+			rewards: [{
+				count: 16
+				id: "610A845243C4AA70"
+				item: {
+					count: 1
+					id: "eternal_starlight:thermal_springstone"
+				}
+				random_bonus: 16
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A5398A3EE56F529"
+				item: { count: 1, id: "eternal_starlight:thermal_springstone" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["662D3714B5979B36"]
+			id: "2B046BF2A30824D3"
+			rewards: [{
+				count: 16
+				id: "34DADCFA3C7CC428"
+				item: {
+					count: 1
+					id: "eternal_starlight:saltpeter_powder"
+				}
+				random_bonus: 16
+				type: "item"
+			}]
+			tasks: [{
+				id: "35267288AA6AB6F8"
+				item: { count: 1, id: "eternal_starlight:saltpeter_powder" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2B046BF2A30824D3"
+				"6C7BD3A2630F88E2"
+			]
+			id: "67B5FBB64044D8CB"
+			rewards: [{
+				count: 16
+				id: "01A7AE41AE5A8D98"
+				item: {
+					count: 1
+					id: "eternal_starlight:thermal_springstone_ingot"
+				}
+				random_bonus: 16
+				type: "item"
+			}]
+			tasks: [{
+				id: "004419871321075C"
+				item: { count: 1, id: "eternal_starlight:thermal_springstone_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67B5FBB64044D8CB"]
+			id: "64D06B002225EA73"
+			rewards: [{
+				count: 7
+				id: "679BD76BE9B1561B"
+				item: {
+					count: 1
+					id: "oritech:duratium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F11087CBEDD1B36"
+				item: { count: 1, id: "oritech:duratium_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64D06B002225EA73"]
+			id: "35882655DBD610B1"
+			tasks: [{
+				id: "240ED38A1FD82564"
+				item: { count: 1, id: "irons_spellbooks:energized_core" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35882655DBD610B1"]
+			id: "24BFF64972B86F6B"
+			tasks: [{
+				id: "318C3F15D6E07E28"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+	]
 }

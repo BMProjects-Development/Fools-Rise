@@ -1,0 +1,61 @@
+{
+  "_docs": {
+    "match.type": "item | tag | mod | rarity | regex",
+    "match.id": "e.g. minecraft:diamond, c:ores, create, epic, minecraft:.*_ingot",
+    "background.decoration": "default_banner (2-layer banner)",
+    "background.style": "NONE | SOLID | TOOLTIP | TEXTURE | BANNER | FLAT",
+    "background.textureWidth/Height": "custom texture dimensions (default: 256x12 for banners, 200x20 for 9-slice)",
+    "background.renderMode": "STRETCH (banner) | NINE_SLICE (scalable)",
+    "layout.iconEnabled": "show/hide item icon (true/false)",
+    "layout.nameEnabled": "show/hide item name (true/false)",
+    "layout.totalCountEnabled": "show/hide inventory total (true/false)",
+    "layout.pickupCountEnabled": "show/hide pickup count (true/false)",
+    "text.markup": "use {name} for the item name; supports EmbersTextAPI tags",
+    "behavior.priority": "higher number = higher priority when multiple tags/regex match",
+    "rarity values": "common | uncommon | rare | epic (vanilla). Modded rarities also work -- use the lowercased enum name (e.g., mythic). Set log level to DEBUG to discover rarity names.",
+    "regex notes": "full match against item ID; use .* for wildcards"
+  },
+  "overrides": [
+    {
+      "_comment": "Example: custom diamond popup",
+      "match": { "type": "item", "id": "minecraft:diamond" },
+      "sound": { "soundId": "minecraft:entity.player.levelup", "volume": 0.6, "pitch": 1.5 },
+      "text": { "markup": "<rainbow f=2.0>{name}</rainbow>", "color": "B9F2FF" },
+      "display": { "durationMs": 8000 },
+      "layout": { "totalCountEnabled": false },
+      "behavior": { "priority": 5 }
+    },
+    {
+      "_comment": "Example: shimmer effect on all ores",
+      "match": { "type": "tag", "id": "c:ores" },
+      "visual": {
+        "effects": [
+          { "type": "shimmer", "color": "22FFFFFF", "speed": 2.0, "width": 0.3 }
+        ]
+      },
+      "behavior": { "priority": 3 }
+    },
+    {
+      "_comment": "Example: gilded decoration for gems",
+      "match": { "type": "tag", "id": "c:gems" },
+      "background": { "decoration": "gilded" }
+    },
+    {
+      "_comment": "Example: custom color for all epic items",
+      "match": { "type": "rarity", "id": "epic" },
+      "text": { "color": "FF55FF" }
+    },
+    {
+      "_comment": "Example: custom popup for a modded rarity (use the lowercased enum name)",
+      "match": { "type": "rarity", "id": "mythic" },
+      "text": { "color": "FFD700" },
+      "sound": { "soundId": "minecraft:ui.toast.challenge_complete", "volume": 0.5 }
+    },
+    {
+      "_comment": "Example: prefix all ingots via regex",
+      "match": { "type": "regex", "id": "minecraft:.*_ingot" },
+      "text": { "prefix": "[Ingot] " },
+      "behavior": { "priority": 2 }
+    }
+  ]
+}

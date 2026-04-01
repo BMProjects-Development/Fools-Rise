@@ -1,0 +1,23 @@
+{
+  "type": "oritech:foundry",
+  "fluidInput": {
+    "amount": 0,
+    "fluid": "minecraft:empty"
+  },
+  "fluidOutputs": [],
+  "ingredients": [
+    {
+      "item": "eternal_starlight:starlit_diamond"
+    },
+    {
+      "item": "eternal_starlight:thermal_springstone_ingot"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "oritech:duratium_ingot"
+    }
+  ],
+  "time": 120
+}

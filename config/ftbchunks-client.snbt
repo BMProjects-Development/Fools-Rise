@@ -138,70 +138,70 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"aether:moa": true
-			"aether:aerbunny": true
-			"minecraft:strider": true
-			"livingthings:crab": true
-			"aether:fire_minion": true
-			"endermanoverhaul:end_enderman": true
-			"minecraft:zombified_piglin": true
-			"creeperoverhaul:cave_creeper": true
-			"aether:aechor_plant": true
-			"livingthings:seahorse": true
-			"minecraft:dolphin": true
-			"minecraft:skeleton": true
-			"minecraft:zombie_villager": true
-			"minecraft:creeper": true
-			"minecraft:piglin": true
-			"aether:slider": true
-			"minecraft:spider": true
-			"eternal_starlight:lonestar_skeleton": true
-			"eternal_starlight:starlight_golem": true
-			"minecraft:sheep": true
-			"eternal_starlight:seeker": true
+			"minecraft:cod": false
+			"irons_spellbooks:necromancer": true
 			"minecraft:zombie": true
-			"minecraft:enderman": true
-			"endermanoverhaul:nether_wastes_enderman": true
-			"minecraft:slime": true
-			"aether:phyg": true
-			"minecraft:bat": true
+			"aether:blue_swet": true
 			"quark:stoneling": true
 			"eternal_starlight:aurora_deer": true
-			"eternal_starlight:yeti": true
+			"minecraft:enderman": true
+			"aether:flying_cow": true
 			"minecraft:glow_squid": true
-			"irons_spellbooks:necromancer": true
-			"aether:golden_swet": true
-			"aether:sheepuff": true
+			"minecraft:zombified_piglin": true
+			"minecraft:dolphin": true
+			"aether:slider": true
+			"creeperoverhaul:beach_creeper": true
+			"minecraft:slime": true
+			"minecraft:strider": true
+			"aether:phyg": true
+			"minecraft:spider": true
+			"minecraft:bat": true
+			"quark:toretoise": true
+			"aether:moa": true
 			"livingthings:shark": true
 			"minecraft:chicken": true
-			"eternal_starlight:ratlin": true
-			"eternal_starlight:nightfall_spider": true
-			"minecraft:squid": true
-			"minecraft:drowned": true
-			"aether:whirlwind": true
-			"minecraft:witch": true
-			"creeperoverhaul:beach_creeper": true
-			"cataclysm:deepling_brute": true
-			"minecraft:cod": false
-			"minecraft:ender_dragon": true
+			"minecraft:zombie_villager": true
 			"livingthings:mantaray": true
-			"minecraft:magma_cube": true
+			"creeperoverhaul:cave_creeper": true
+			"aether:whirlwind": true
+			"livingthings:crab": true
+			"quark:foxhound": true
+			"eternal_starlight:yeti": true
+			"endermanoverhaul:end_enderman": true
+			"forbidden_arcanus:lost_soul": true
+			"eternal_starlight:seeker": true
+			"aether:sheepuff": true
+			"minecraft:sheep": true
+			"aether:aechor_plant": true
+			"eternal_starlight:lonestar_skeleton": true
+			"minecraft:ender_dragon": true
+			"quark:forgotten": true
+			"minecraft:skeleton": true
+			"aether:golden_swet": true
 			"eternal_starlight:rookfish": true
 			"aether:aerwhale": true
-			"aether:cockatrice": true
-			"aether:blue_swet": true
-			"aether:sun_spirit": true
-			"quark:forgotten": true
-			"aether:flying_cow": true
-			"quark:toretoise": true
-			"forbidden_arcanus:lost_soul": true
-			"aether:evil_whirlwind": true
-			"aether:zephyr": true
-			"quark:foxhound": true
+			"minecraft:drowned": true
 			"biomeswevegone:oddion": true
 			"eternal_starlight:shadow_snail": true
-			"eternal_starlight:permafrost": true
+			"aether:aerbunny": true
+			"minecraft:piglin": true
 			"eternal_starlight:ent": true
+			"minecraft:creeper": true
+			"eternal_starlight:permafrost": true
+			"livingthings:seahorse": true
+			"eternal_starlight:ratlin": true
+			"minecraft:magma_cube": true
+			"aether:zephyr": true
+			"eternal_starlight:nightfall_spider": true
+			"aether:evil_whirlwind": true
+			"aether:fire_minion": true
+			"cataclysm:deepling_brute": true
+			"eternal_starlight:starlight_golem": true
+			"aether:cockatrice": true
+			"minecraft:witch": true
+			"endermanoverhaul:nether_wastes_enderman": true
+			"aether:sun_spirit": true
+			"minecraft:squid": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

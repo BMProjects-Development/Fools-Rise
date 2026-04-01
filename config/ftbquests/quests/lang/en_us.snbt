@@ -5,8 +5,9 @@
 	chapter.64570AF2F8F626EF.title: "&bThe Entrance"
 	chapter.6C6A05BF487E489C.title: "&6The Eternity in Oblivion"
 	chapter.7B1AE0DD08C62A4A.title: "&6The Divine Beginning"
+	chapter_group.1177E4E37A9E3F57.title: "&aProgression"
 	chapter_group.1177EVIDE37A9E3F57.title: "&Up - Down"
-	file.0000000000000001.title: "Fools Rise"
+	file.0000000000000001.title: "&l&6Fools Rise"
 	quest.00303B422E032829.quest_desc: ["This world is almost entirely made of these stones."]
 	quest.0FF47E829569E30F.quest_desc: [
 		"Now you need to survive for 5 minutes in the most difficult dimension without taking damage!"

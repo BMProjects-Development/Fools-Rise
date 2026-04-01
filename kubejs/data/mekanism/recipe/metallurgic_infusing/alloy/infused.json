@@ -1,0 +1,1 @@
+{"type":"mekanism:metallurgic_infusing","chemical_input":{"amount":10,"tag":"mekanism:redstone"},"item_input":{"count":1,"item":"aether:ambrosium_shard"},"output":{"count":1,"id":"mekanism:alloy_infused"},"per_tick_usage":false}

@@ -7,7 +7,231 @@
 		id: "aether:aether_portal_frame"
 	}
 	id: "7B1AE0DD08C62A4A"
+	images: [
+		{
+			height: 2.0d
+			image: "mekanism:item/teleportation_core"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			height: 2.0d
+			image: "mekanism:item/alloy_reinforced"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			height: 2.0d
+			image: "aether:item/materials/ambrosium_shard"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.5d
+			y: -1.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["5E26FE789F50DFD6"]
+			id: "4665987A722DE4ED"
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "79D8AE3EEB3A433E"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4665987A722DE4ED"]
+			id: "677DDFFEDA9A54C6"
+			rewards: [{
+				count: 16
+				id: "0913C0225979B441"
+				item: {
+					count: 1
+					id: "aether:ambrosium_shard"
+				}
+				random_bonus: 16
+				type: "item"
+			}]
+			tasks: [{
+				id: "59F33122F4A8EAB3"
+				item: { count: 1, id: "aether:ambrosium_shard" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["677DDFFEDA9A54C6"]
+			id: "3020682AC287EBD6"
+			rewards: [{
+				count: 16
+				id: "7B38EF1E1609C62A"
+				item: {
+					count: 1
+					id: "mekanism:alloy_infused"
+				}
+				random_bonus: 16
+				type: "item"
+			}]
+			tasks: [{
+				id: "683610709CE718E2"
+				item: { count: 1, id: "mekanism:alloy_infused" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3020682AC287EBD6"]
+			id: "548251B57F04FE1B"
+			rewards: [{
+				count: 16
+				id: "5020BC1BB12CD526"
+				item: {
+					count: 1
+					id: "mekanism:alloy_reinforced"
+				}
+				random_bonus: 16
+				type: "item"
+			}]
+			tasks: [{
+				id: "1190CED7A16B2FC0"
+				item: { count: 1, id: "mekanism:alloy_reinforced" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["548251B57F04FE1B"]
+			id: "50A55E608027A805"
+			rewards: [{
+				count: 16
+				id: "68A2478C760BBBB2"
+				item: {
+					count: 1
+					id: "mekanism:alloy_atomic"
+				}
+				random_bonus: 16
+				type: "item"
+			}]
+			tasks: [{
+				id: "71D0C8C1E7B95C2B"
+				item: { count: 1, id: "mekanism:alloy_atomic" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4665987A722DE4ED"]
+			id: "6A6C48E4B5B7EA1E"
+			rewards: [{
+				count: 16
+				id: "595F8094A1F98568"
+				item: {
+					count: 1
+					id: "aether:zanite_gemstone"
+				}
+				random_bonus: 16
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D58C1AB3BF2B54A"
+				item: { count: 1, id: "aether:zanite_gemstone" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4665987A722DE4ED"]
+			id: "00303B422E032829"
+			rewards: [{
+				count: 16
+				id: "2C6278A363A6B93F"
+				item: {
+					count: 1
+					id: "aether:holystone"
+				}
+				random_bonus: 16
+				type: "item"
+			}]
+			tasks: [{
+				id: "42844758FB33BF3A"
+				item: { count: 1, id: "aether:holystone" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"00303B422E032829"
+				"6A6C48E4B5B7EA1E"
+			]
+			id: "190C7BEF7DF30271"
+			tasks: [{
+				id: "77725037F2ABDF8A"
+				item: { count: 1, id: "aether:altar" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["190C7BEF7DF30271"]
+			id: "69E6F3ACB330197F"
+			rewards: [{
+				count: 3
+				id: "5A51E8B971E6BA78"
+				item: {
+					count: 1
+					id: "aether:enchanted_gravitite"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7339C79F6093CAF3"
+				item: { count: 1, id: "aether:enchanted_gravitite" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"50A55E608027A805"
+				"69E6F3ACB330197F"
+			]
+			id: "121C087BA716908A"
+			tasks: [{
+				id: "26FDA3379232148C"
+				item: { count: 1, id: "mekanism:teleportation_core" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["121C087BA716908A"]
+			id: "52283986CF461AA0"
+			tasks: [{
+				id: "4326F4B7834C44EC"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+	]
 }

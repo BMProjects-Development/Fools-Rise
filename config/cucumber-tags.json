@@ -7,11 +7,11 @@
   "c:ingots/platinum": "oritech:platinum_ingot",
   "c:ingots/graphite": "null",
   "c:ingots/iridium": "null",
-  "c:ingots/zinc": "null",
+  "c:ingots/zinc": "create:zinc_ingot",
   "c:ingots/invar": "null",
   "c:gems/ruby": "null",
   "c:dusts/niter": "null",
-  "c:ingots/brass": "null",
+  "c:ingots/brass": "create:brass_ingot",
   "c:rubbers": "null",
   "c:gems/peridot": "null"
 }

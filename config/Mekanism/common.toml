@@ -1,6 +1,6 @@
 #Displayed energy type in Mekanism GUIs (client) and network reader readings (server).
 #Allowed Values: JOULES, FORGE_ENERGY
-energyType = "FORGE_ENERGY"
+energyType = "JOULES"
 #Displayed temperature unit in Mekanism GUIs (client) and network reader readings (server).
 #Allowed Values: KELVIN, CELSIUS, RANKINE, FAHRENHEIT, AMBIENT
 temperatureUnit = "KELVIN"

@@ -1,1 +1,66 @@
-{ }
+{
+	chapter.1E40ED7C63006BE8.title: "&6The Journey to the Voids"
+	chapter.279D604D7F10E03C.title: "&6The Inferno"
+	chapter.2C6B7672EC1B4A8B.title: "&6The Way Home"
+	chapter.64570AF2F8F626EF.title: "&bThe Entrance"
+	chapter.6C6A05BF487E489C.title: "&6The Eternity in Oblivion"
+	chapter.7B1AE0DD08C62A4A.title: "&6The Divine Beginning"
+	chapter_group.1177EVIDE37A9E3F57.title: "&Up - Down"
+	file.0000000000000001.title: "Fools Rise"
+	quest.00303B422E032829.quest_desc: ["This world is almost entirely made of these stones."]
+	quest.0FF47E829569E30F.quest_desc: [
+		"Now you need to survive for 5 minutes in the most difficult dimension without taking damage!"
+		""
+		"Well, good luck..."
+	]
+	quest.0FF47E829569E30F.title: "We were in Aether, now it's time to go to HELL"
+	quest.121C087BA716908A.quest_desc: ["Thanks to this sphere, you will be able to fight the boss of this world!"]
+	quest.190C7BEF7DF30271.quest_desc: ["This is your new furnace, capable of melting ores from this dimension."]
+	quest.24BFF64972B86F6B.quest_subtitle: "Bye, Starlight!"
+	quest.2B046BF2A30824D3.quest_desc: ["The main thing is not to set fire to this powder, otherwise *bang* will happen!"]
+	quest.2B9B6D2FCB7411A3.quest_subtitle: "The End? I don't think so."
+	quest.2B9B6D2FCB7411A3.title: "Round number 3"
+	quest.3020682AC287EBD6.quest_desc: ["So, are these really Aether materials?"]
+	quest.3514B5A777A05130.quest_desc: [
+		"Did you really get to the very end? It's amazing..."
+		""
+		"Try to live in this wonderful world for about 5 minutes, maybe something will happen?"
+	]
+	quest.3514B5A777A05130.title: "MAXimum capabilities"
+	quest.35882655DBD610B1.quest_desc: ["And again an item for the boss, good luck!"]
+	quest.4665987A722DE4ED.quest_subtitle: "Your journey in the opposite direction begins here!"
+	quest.4665987A722DE4ED.title: "The beginning of the passage"
+	quest.50A55E608027A805.quest_desc: ["With each quest we are further away from Aether..."]
+	quest.52283986CF461AA0.quest_subtitle: "Bye, Aether!"
+	quest.548251B57F04FE1B.quest_desc: ["Something tells me that it's not from this place anymore..."]
+	quest.57D51127907C3FDF.quest_desc: ["Dragon core to fight a dragon, that makes sense."]
+	quest.5D1AB78CC1E2FF08.quest_subtitle: "Bye, End!"
+	quest.5D1AB78CC1E2FF08.title: "It's time to go deeper"
+	quest.5E26FE789F50DFD6.quest_desc: [
+		"Welcome to the BEST modpack ever created!"
+		"FOOLS RISE!!!"
+	]
+	quest.5E26FE789F50DFD6.quest_subtitle: "May luck bless you"
+	quest.5E26FE789F50DFD6.title: "Introduction"
+	quest.5F558C53728AACBC.quest_desc: ["... don't even ask, I only do descriptions, not quests."]
+	quest.625245C8D57BF769.quest_desc: ["You were able to do it without much difficulty!"]
+	quest.64D06B002225EA73.quest_desc: ["Even stronger, even newer, even better!"]
+	quest.662D3714B5979B36.quest_subtitle: "After Aether, this place seems creepy"
+	quest.662D3714B5979B36.title: "The Second Round"
+	quest.66674F1012C6670C.quest_desc: ["I wonder where to find it here?"]
+	quest.677DDFFEDA9A54C6.quest_desc: ["You can find Ambrosia on the rocks, which is needed for subsequent crafts."]
+	quest.67B5FBB64044D8CB.quest_desc: ["Careful, this ingot is very hot! But not in Minecraft."]
+	quest.67DCC4495CC9F032.quest_desc: ["Kill a couple of endermen to get their eyes."]
+	quest.69E6F3ACB330197F.quest_desc: ["Such a crafty block that you want to admire it forever."]
+	quest.6A6C48E4B5B7EA1E.quest_desc: ["A beautiful gem that you will need soon."]
+	quest.6C7BD3A2630F88E2.quest_desc: ["If you put this stone in the bathroom, will you get a Jacuzzi?"]
+	task.136DB2369B5733DB.title: "Ender the Dragon"
+	task.2672A3E46849C9EA.title: "From the prince to the mud..."
+	task.318C3F15D6E07E28.title: "Starlight Golem"
+	task.4326F4B7834C44EC.title: "Spirit of the Sun"
+	task.464B20C099A543EB.title: "Well-deserved award"
+	task.512E3C54C5118872.title: "Any #c:ender_pearls"
+	task.63F89C054C6E71D2.title: "Items to complete!"
+	task.672429ADE94D7CA3.title: "Items to complete!"
+	task.7C667A8C2BDD8AE5.title: "Items to complete!"
+}

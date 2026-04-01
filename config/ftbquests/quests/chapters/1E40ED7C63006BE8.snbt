@@ -115,6 +115,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "558A639284B71773"
+					item: {
+						count: 1
+						id: "create:depot"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "464B20C099A543EB"
@@ -327,6 +335,14 @@
 					item: {
 						count: 1
 						id: "minecraft:baked_potato"
+					}
+					type: "item"
+				}
+				{
+					id: "7B38AC269115DFF8"
+					item: {
+						count: 1
+						id: "minecraft:crafting_table"
 					}
 					type: "item"
 				}

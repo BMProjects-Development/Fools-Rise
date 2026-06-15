@@ -1,6 +1,13 @@
 <div align="center">
 <img width="1280" height="717" alt="photo_2026-04-01_11-42-07" src="https://github.com/user-attachments/assets/b94d7b00-b075-46f0-ac28-c600396cbee6" />
 
+<p>
+  <a href="https://github.com/BMProjects-Development/Fools-Rise/commits/"><img src="https://img.shields.io/github/commit-activity/t/BMProjects-Development/Fools-Rise?style=for-the-badge&labelColor=f1c232&color=bf9000" alt="Stars"></a>
+  <a href="https://github.com/BMProjects-Development/Fools-Rise/stargazers"><img src="https://img.shields.io/github/stars/BMProjects-Development/Fools-Rise.svg?style=for-the-badge&labelColor=f1c232&color=bf9000" alt="Stars"></a>
+  <a href="https://github.com/BMProjects-Development/Fools-Rise/graphs/contributors"><img src="https://img.shields.io/github/contributors/BMProjects-Development/Fools-Rise.svg?style=for-the-badge&labelColor=f1c232&color=bf9000" alt="Contributors"></a>
+  <a href="https://discord.gg/9GWKBVw3Ty"><img src="https://img.shields.io/discord/1087416155934834748?style=for-the-badge&label=Discord&logo=discord&logoColor=d9e0ee&labelColor=f1c232&color=bf9000" alt="Discord"></a>
+</p>
+
 # $${\color{yellow}{Fools \space Rise}}$$
 <b>Fools Rise</b> is not just a modpack, it's a challenge to your sanity and survival skills. The world you once knew has changed. Here, the line between triumph and complete failure is thinner than ever, and every wrong move could be your last...
 

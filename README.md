@@ -38,4 +38,6 @@
 [Gallery](https://www.curseforge.com/minecraft/modpacks/fools-rise/gallery) <br/>
 [Relations](https://www.curseforge.com/minecraft/modpacks/fools-rise/relations/dependencies) <br/>
 
+<img width="400" height="400" alt="Untitled_ava@x400" src="https://github.com/user-attachments/assets/72776366-bed5-49e0-978c-30871adecf06" />
+
 </div>

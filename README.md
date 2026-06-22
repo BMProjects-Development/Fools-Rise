@@ -29,7 +29,7 @@
 [CurseForge](https://www.curseforge.com/minecraft/modpacks/fools-rise) <br/>
 [Google Disk](https://drive.google.com/file/d/1qw5wHo_YfKNueZGcRpiabFi0IHx5s3t5/view?usp=sharing)
 
-# Contacts
+# Contacts & Supports
 [Telegram](https://t.me/BMProjects) <br/>
 [Discord](https://discord.gg/9GWKBVw3Ty) <br/>
 [Patreon](https://www.patreon.com/c/BMProjectsMinecraft) <br/>

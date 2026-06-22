@@ -23,7 +23,7 @@
 - <b>Balanced Chaos</b>: We've combined magic, technology, and exploration into a single mechanism where one element complements the other, and the progression itself is chaotic yet incredibly interesting and casual!
 
 # Trailer
-[YouTube](https://www.youtube.com/watch?v=gRUrjz6A3k4)
+[YouTube](https://www.youtube.com/watch?v=gRUrjz6A3k4) - Watch the official trailer! Dive into the atmosphere, witness the gameplay, and get a glimpse of what awaits you in this epic journey.
 
 # Download
 [CurseForge](https://www.curseforge.com/minecraft/modpacks/fools-rise) <br/>
@@ -32,6 +32,7 @@
 # Contacts
 [Telegram](https://t.me/BMProjects) <br/>
 [Discord](https://discord.gg/9GWKBVw3Ty) <br/>
+[Patreon](https://www.patreon.com/c/BMProjectsMinecraft) <br/>
 [Boosty](https://boosty.to/barmaxx)
 
 # Other links
